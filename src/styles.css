@@ -8,6 +8,9 @@
 .container{
   width: 100%;
   margin: 0;
+  display: block;
+
+  
 }
 
 .title{
@@ -63,6 +66,11 @@
   text-align: center;
 }
 
+.input-sing-1{
+  text-align: center;
+  
+}
+
 .new-comment{
   font-size: 15px;
   text-align: center;
@@ -73,31 +81,61 @@
   text-align: center;
   
 }
-
-.btn-comment{
-font-size: 20px; 
-border-radius: 4px;
-cursor: pointer;
-
+.btn-save-display {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
 }
+
+.btn-save-display:hover {
+  background-color: #83b685;
+  color: white;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;}
 
 .ola-user{
   padding: 3%;
   text-align: center;
 }
 
-.btn-save-display{
-  font-size: 19px; 
-  padding: 1px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.btn-sair{
-  font-size: 16px; 
-  border-radius: 4px;
-  cursor: pointer;
+  .btn-comment {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
   
+  .btn-comment:hover {
+    background-color: #83b685;
+    color: white;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
 }
+
+.btn-sair {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-sair:hover {
+  background-color: #83b685;
+  color: white;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .btn-create {
   background-color: white; 
   color: black; 

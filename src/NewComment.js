@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { useDatabasePush } from "./database";
 import firebase from "./firebase";
 import { AuthContext } from "./auth";
+import "./styles.css";
 
 const NewComment = () => {
   const [, save] = useDatabasePush("comments");

@@ -18,7 +18,9 @@ function App() {
         <div className="create-user">
           <CreateUser />
         </div>
+
         <SignInUser />
+
         <br />
 
         <NewComment />
