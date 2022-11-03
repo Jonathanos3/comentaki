@@ -15,7 +15,9 @@ const FormDisplayName = ({ displayName, user }) => {
     <React.Fragment>
       <input type="text" value={newDisplayName} onChange={onChange} />
       <br />
-      <button onClick={save}>Save display name</button>
+      <button className="btn-save-display" onClick={save}>
+        Save display name
+      </button>
     </React.Fragment>
   );
 };
@@ -33,9 +35,14 @@ const UserInfo = () => {
 
   return (
     <React.Fragment>
-      <p> Olá {dn} !</p>
-      <FormDisplayName displayName={dn} user={auth.user} />
-      <button onClick={auth.signout}>Sair!</button>
+      <div className="ola-user">
+        <p> Olá {dn} !</p>
+        <FormDisplayName displayName={dn} user={auth.user} />
+        <br />
+        <button className=" btn-sair" onClick={auth.signout}>
+          Sair!
+        </button>
+      </div>
     </React.Fragment>
   );
 };

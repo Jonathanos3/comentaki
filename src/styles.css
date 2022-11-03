@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:azure
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+}
+
+.title{
+  display: block;
+  font-size: 30px;
+  
+
+  line-height: 1.2;
+  text-align: center;
+}
+
+.create-user{
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.create-count{
+  display: block;
+  font-size: 30px;
+  padding: 1%;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.input {
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 17px;
+  width: 40%;
+  height: 45px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.sign-count{
+  display: block;
+  font-size: 30px;
+  padding: 1%;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.input-sign{
+  font-size: 15px;
+  line-height: 1.2;
+  border: none;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 17px;
+  width: 40%;
+  height: 45px;
+  text-align: center;
+}
+
+.new-comment{
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  }
+
+.comments{
+  text-align: center;
+  
+}
+
+.btn-comment{
+font-size: 20px; 
+border-radius: 4px;
+cursor: pointer;
+
+}
+
+.ola-user{
+  padding: 3%;
+  text-align: center;
+}
+
+.btn-save-display{
+  font-size: 19px; 
+  padding: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-sair{
+  font-size: 16px; 
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+.btn-create {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-create:hover {
+  background-color: #83b685;
+  color: white;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-sign {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-sign:hover {
+  background-color: #83b685;
+  color: white;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+}

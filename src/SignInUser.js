@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { AuthContext } from "./auth";
+import "./styles.css";
 
 const SignInUser = () => {
   const auth = useContext(AuthContext);
@@ -17,28 +18,32 @@ const SignInUser = () => {
 
   return (
     <React.Fragment>
-      <h3 className="entrar-conta">Entrar na sua conta: </h3>
+      <span className="sign-count">Entrar na sua conta: </span>
       {auth.signInUser.signInUserState.error !== "" && (
         <p>{auth.signInUser.signInUserState.error}</p>
       )}
       <input
+        className="input-sign"
         type="text"
         placeholder="Seu e-mail"
         value={form.email}
         onChange={onChange("email")}
       />
+      <br />
       <input
+        className="input-sign"
         type="password"
         placeholder="Sua senha"
         value={form.passwd}
         onChange={onChange("passwd")}
       />
+      <br />
       <button
+        className="btn-sign"
         onClick={() => {
           auth.signInUser.signInUser(form.email, form.passwd);
         }}
       >
-        {" "}
         Entrar
       </button>
     </React.Fragment>
