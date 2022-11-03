@@ -9,8 +9,6 @@
   width: 100%;
   margin: 0;
   display: block;
-
-  
 }
 
 .title{
@@ -24,6 +22,10 @@
 
 .create-user{
   line-height: 1.2;
+  text-align: center;
+}
+
+.text-comment{
   text-align: center;
 
 }

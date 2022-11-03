@@ -5,7 +5,9 @@ import Comment from "./Comment";
 const Comments = () => {
   const data = useDatabase("comments");
   if (!data) {
-    return <p> Nenhum comentário enviado até o momento!</p>;
+    return (
+      <p className="text-comment"> Nenhum comentário enviado até o momento!</p>
+    );
   }
   const ids = Object.keys(data);
   if (ids.length === 0) {
