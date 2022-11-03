@@ -17,7 +17,7 @@ const SignInUser = () => {
 
   return (
     <React.Fragment>
-      <h3>Entrar na sua conta: </h3>
+      <h3 className="entrar-conta">Entrar na sua conta: </h3>
       {auth.signInUser.signInUserState.error !== "" && (
         <p>{auth.signInUser.signInUserState.error}</p>
       )}

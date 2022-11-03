@@ -16,7 +16,6 @@ const FormDisplayName = ({ displayName, user }) => {
       <input type="text" value={newDisplayName} onChange={onChange} />
       <br />
       <button onClick={save}>Save display name</button>
-      {""}
     </React.Fragment>
   );
 };
